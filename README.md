@@ -14,7 +14,7 @@ Can you do it from a provided set of:
 
 Can you create an efficient algorithm that makes use of limited amount of memory and provide prediction in a reasonable period of time?
 
-The description of the developed Shiny App, is available [here](https://rpubs.com/lvignali/170990), while the Shiny App it self is [here](https://rpubs.com/lvignali/170990).
+The description of the developed Shiny App, is available [here](https://rpubs.com/lvignali/170990), while the Shiny App it self is [here](https://lvignali.shinyapps.io/Capstone_NLP/).
 
 The algorithm is very simple and it is based on 4-ngram recognition. 
 
