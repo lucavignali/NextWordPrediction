@@ -1,7 +1,21 @@
 # Next Word Prediction
-A basic implementation of NLP to predict the Next Word in a Sentence.
+The final project of the Data Science 9 month program from Johns Hopkins University, included the development of a basic implementation of NLP to predict the Next Word in a Sentence.
+
+__The Challenge__
+
+The challange of this project can be summarized with the following questions:
+
+How can you predict the next word following a given uncomplete sentence?
+Can you do it from a provided set of:
+1. 2.3 Million Tweets
+1. 900 Thousand Blog
+1. 77 Thousand piece of news?
+
+Can you create an efficient algorithm that makes use of limited amount of memory and provide prediction in a reasonable period of time?
 
 The description of the developed Shiny App, is available [here](https://rpubs.com/lvignali/170990), while the Shiny App it self is [here](https://rpubs.com/lvignali/170990).
+
+The algorithm is very simple and it is based on 4-ngram recognition. 
 
 __Do you want to have (moderate) fun with this App?__
 
