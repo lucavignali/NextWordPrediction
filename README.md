@@ -1,7 +1,7 @@
 # Next Word Prediction
 A basic implementation of NLP to predict the Next Word in a Sentence.
 
-The description of te developed Shiny App, is available [here](https://rpubs.com/lvignali/170990), while the Shiny App it self is [here](https://rpubs.com/lvignali/170990).
+The description of the developed Shiny App, is available [here](https://rpubs.com/lvignali/170990), while the Shiny App it self is [here](https://rpubs.com/lvignali/170990).
 
 __Do you want to have (moderate) fun with this App?__
 
