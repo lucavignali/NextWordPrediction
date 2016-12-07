@@ -1,0 +1,6 @@
+### How to use this Shiny App
+
+To use this simple Shiny App, just type your sentence in the Text Input, press "Predict Next Word" button and wait typically few seconds.
+
+As the algorithm is a bit heavier in the case of "common" words, expect to wait longer time to predict the word following a common one.
+The output appears below the title "Prediction" and once it appears you can try a new sentence. Note that the second time you use it, you have a better perception that you have actually pushed the Predict Next Word button, as the previously predicted word is grayed out.

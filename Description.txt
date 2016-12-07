@@ -1,0 +1,26 @@
+### Predict Next Word: A very easy implementation of basic NLP Techniques
+
+In this Shiny App, we apply very basic Natural Language Processing Technique and try to predict the next word following a given sentence.
+
+The prediction algorithm is based on text corpus in English from different sources: 2.3M Tweets, 900k Blogs, 77k Pieces of news. Before using the text corpus we remove all punctuations and change all characters in lower case. The same pre-processing  is applied to the given sentence.
+The Algorithm consists of five steps as described below, and it is based on the last n-grams of the sentence of which we want to predict the next word:
+
+1. Match the 4-gram and list the words following the 4-gram. Each match is whighted by a kind of probability that is the ratio between all N matching of the 4-gram and the N_w matching of the specific word.
+
+2. In the case the previous point is providing less than 10 results, perform the same action with 3-gram. Add the 3-gram results to the 4-gram results.
+
+3. In the case the previous points are providing less than 10 results, perform the same action with 2-gram. Add the 2-gram results to the previous results.
+
+4. If there is no matching in the previous steps, we use the corpora in a pure statistical way. That is proposing three words (excluding standard words provided by stopwords function in package "tm") with the same probability it appears in the text corpus.
+
+5. We show most likely three results (words).
+
+_NOTE_ that as the Capstone Project requires to show only ONE word, we show the most likely word only.
+
+The process above can be tuned selecting a "boost" parameter that is reducing the size of the text corpus by pure sampling. Boost equal to 1 means that all text corpus is considered in the prediction. Boost equal to 10 means that 10% of the corpus is considered in the prediction, so that we expect a "boost" of the algorithm speed at the expenses of accuracy reduction. The tradeoff of course depends on the application we have in mind.
+
+For this Shiny Application the boost has been tuned to value 8 to both increase speed and reduce memory footprint.
+
+Note that in this short note title, we used the words _"very easy"_ and _"basic"_ to underline the nature of the approach and algorithm.
+
+
