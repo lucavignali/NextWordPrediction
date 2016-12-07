@@ -1,5 +1,5 @@
 # Next Word Prediction
-The final project of the Data Science 9 courses program from Johns Hopkins University, I completed in 2014, included the development of a basic implementation of NLP to predict the Next Word in a Sentence.
+The final project of the Data Science 9 courses program from Johns Hopkins University, I completed in 2014, included the development of  implementation of Natural Language Processing to predict the Next Word in a Sentence.
 
 __The Challenge__
 
